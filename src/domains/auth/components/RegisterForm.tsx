@@ -5,7 +5,7 @@ import { register } from "../services/authService";
 import { User } from "../models/User";
 import { fetchRoles } from "../../roles/services/roleServices";
 import { SelectChangeEvent } from "@mui/material";
-import { useAuth } from "../../../app/AuthProvider";
+import { useAuth } from "../providers/AuthProvider";
 import { Role } from "../../roles/models/Role";
 import { Customer } from "../../customer/models/Customer";
 import CustomerForm from "../../customer/components/CustomerForm";

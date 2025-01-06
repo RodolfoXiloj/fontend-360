@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, TextField } from "@mui/material";
-import { useAuth } from "../../../app/AuthProvider";
+import { useAuth } from "../providers/AuthProvider";
 import { login } from "../services/authService";
 import { useNavigate } from "react-router-dom";
 
